@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node serve.mjs)",
+      "Bash(lsof -i :3000 -sTCP:LISTEN -P)"
+    ]
+  }
+}
